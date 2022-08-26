@@ -23,3 +23,35 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        background-image: url("../images/istockphoto-1152451549-170667a.jpg");
+        background-repeat: no-repeat;
+        background-size: 411px 600px;
+        background-position: top center;
+        /* From https://css.glass */
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+    }
+    
+    .title {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 48px;
+        border: 1 px solid black;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 16px;
+    }
+}
