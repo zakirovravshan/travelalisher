@@ -29,10 +29,10 @@ body {
     body {
         font-family: Arial, Helvetica, sans-serif;
         padding-top: 80px;
-        padding-bottom: 200px;
+        padding-bottom: 400px;
         background-image: url("../images/istockphoto-1152451549-170667a.jpg");
         background-repeat: no-repeat;
-        background-size: 411px 600px;
+        background-size: 511px 800px;
         background-position: top center;
         /* From https://css.glass */
         border-radius: 16px;
